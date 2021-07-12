@@ -2,16 +2,16 @@ body {
     background-color:rgba(105, 105, 105, 0.301);
 }
 
-span {
-    float:right;
-}
-
 .Timebar {
     float:center;
     text-align: center;
     margin-left:5%;
     margin-right: 5%;
     color:rgba(255, 255, 255, 0.781);
+}
+
+.hidden {
+    display: none;
 }
 
 #Bar {
@@ -21,17 +21,44 @@ span {
     width:100%
 }
 
+h4{
+    color:cornsilk;
+}
+
+.game-status-text
+{
+    color:red;
+    text-align: left;
+    float: none;
+}
+
+.name-of-game{
+    text-align: center;
+    float:center;
+}
+
+.game-name{
+    height: 50px ;
+}
+
 .container3 {
     float:center;
     text-align: center;
-    height:1000px;
     background-color:rgba(0, 0, 0, 0.795);
+}
+
+.game-pannel{
+    height: 850px ;
 }
 
 .buttons {
     float:center;
     text-align: center;
 
+}
+
+.row{
+    width: 100%;
 }
 
 .col {
@@ -46,21 +73,35 @@ span {
     height:10%;
 }
 
-#health {
+.right {
+    float:right;
+}
+
+.health{
     background-color:red;
-    border-radius: 10px;
+    border-radius: 5px;
     border: 1px black;
     border-style:solid;
-    padding: 2px;
     color:black;
 }
-#coin {
+.coin {
     background-color:yellow;
-    border-radius: 10px;
+    border-radius: 5px;
     border: 1px black;
     border-style:solid;
-    padding: 2px;
     color:black;
+}
+
+.deaths{
+    background-color:green;
+    border-radius: 5px;
+    border: 1px black;
+    border-style:solid;
+    color:black;    
+}
+
+#team1-players, #team2-players{
+    padding: 2px;
 }
 
 .btn_control{
@@ -74,14 +115,14 @@ span {
     background-color: #b9b4b4;
     }
 
-#btn_exit{
+#btnCancel{
     background-color: Transparent;
     color: #ec2323;
     border: 2px solid #e62323;
     border-radius: 8px; 
-    border-color
+    /* border-color */
 }
 
-#btn_exit:active {
+#btnCancel:active {
     background-color: #b9b4b4;
-    }
+}
